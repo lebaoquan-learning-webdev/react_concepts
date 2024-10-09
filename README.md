@@ -1,22 +1,20 @@
 # REACT CONCEPTS 
 
-## Components 
+## Components (ES6+)
 - reusable 
-- is a Javascript function that returns a markup - JSX - Javascript XML 
+- is a Javascript function that returns a markup in JSX 
 
-## JSX 
+## JSX (- Javascript XML )
 - note: use camelCase style i.e. onClick instead of click
 
 ```
 import React from 'react';
 
-const Button = () => {
-  return (
-    <button onClick={() => alert('Button clicked!')}>
-      Click Me
-    </button>
-  );
-};
+
+
+function Greeting() {
+    return <h1> Hello World! <h1/>;
+}
 
 export default Button;
   
@@ -37,4 +35,13 @@ const text = "world!"
     <Main />
 </>
 ```
-## Props
+## Props (properties)
+
+## Children 
+
+## Keys 
+
+
+## DOM (Document Object Model) 
+
+## 
